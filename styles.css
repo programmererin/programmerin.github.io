@@ -91,14 +91,17 @@ body {
     color: white;
 }
 
+.accessibility-interests {
+    text-align: center;
+}
 
-
-ul {
-    list-style-position: inside; /* Ensures bullets are inside the list items */
+.accessibility-interests ul {
+    text-align: left; /* Align list items to the left */
+    margin-left: auto; /* Center the list */
+    margin-right: auto; /* Center the list */
+    width: fit-content; /* Set width to fit the content */
   }
   
- ul li {
-    text-align: left; /* Align text back to the left */
-    display: inline-block; /* Prevents full width */
+  .accessibility-interests ul li {
+    list-style-position: inside; /* Place bullet inside list item */
   }
-  
