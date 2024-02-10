@@ -1,0 +1,85 @@
+                
+.view {
+    background: url("_files/_images/pexels-photo-blackandwhitemtns.jpeg")no-repeat center center;
+}
+    
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #747ba1;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #747ba1;
+    }
+    
+}
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.title{
+    font-size:5em;
+    color:white;
+}
+
+.socialmedia-icons {
+    position: absolute;
+    top: 25%;
+    left: 98%;
+    transform: translate(-50%, -50%);
+}
+
+.downarrow {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+p, h2, h3{
+    margin-right: 12%;
+    margin-left: 12%;
+}
+h1{
+    margin-left: 12%;
+}
+.container-port{
+    margin-right: 12%;
+    margin-left: 12%;
+}
+p{
+    font-size: 1.15em;
+}
+
+img{
+    padding: 2%;
+    margin-bottom: 8%;
+    padding-right: 6%;
+}
+
+#toggle-one{
+    position: relative;
+    top: 10%;
+}
+
+.profile{
+    padding: 5%;
+}
+
+body {
+    background-color: white;
+    color:black;
+}
+
+.dark-mode{
+    background-color:#434e5c;;
+    color: white;
+}
+

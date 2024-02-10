@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--for mobile viewing title--> 
+		<!--insert style sheet here-->
+		<link rel="stylesheet" href="bootstrap-5.1.1-dist/css/bootstrap.min.css">
+		<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/6341e10766.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="styles.css">
+		<title>Erin's Profile</title>
+		<link rel="icon" href="_files/_images/favicon.ico">
+	</head>
+	<body id="content">
+		<header>
+			<div class="container">
+				<div id="nav-bar-index"> <!--navbar.html will go here-->
+				</div>
+				<div class="centered title">Erin Lapko</div>
+				<!--icons-->
+				<div class="socialmedia-icons">
+					<a style="color: #000000;" href="https://www.facebook.com/erin.lapko/">
+  						<i class="fab fa-facebook fa-2x"></i>
+					</a><br></br>
+					<a class="icon" style="color: #000000;" href="https://www.linkedin.com/in/erinlapko/" role="button">
+  						<i class="fab fa-linkedin fa-2x"></i>
+					</a><br></br>
+					<a class="icon" style="color: #000000;" href="https://github.tamu.edu/erinlapko" role="button">
+  						<i class="fab fa-github fa-2x"></i>
+					</a>
+				</div>
+				<div class="downarrow">
+					<a role="button" onclick="scrollToMain()" style="color: white;">
+  						<i class="fas fa-angle-double-down fa-4x"></i>
+					</a>
+					<script>
+						function scrollToMain(){
+							var ele = document.getElementById("main-text");
+							ele.scrollIntoView();
+						}
+					</script>
+				</div>
+			</div>
+			<div class="view intro" style="height: 400px;"></div>
+		</header>
+		<main class="text-center py-5">
+			<div class="container">
+				<div class="row" id="main-text">
+					<div class="col-md">
+							<br>
+							<p><img src="_files/_images/profilepic3.png" class="rounded-circle float-start profile" alt="Profile picture of Erin Lapko" width="40%"></p>
+							<br><h2>Howdy, I'm Erin Lapko!</h2><br>
+							<h3 align="centered">I'm an energetic and passionate college student working towards a B.S. in Computer Science.
+								I demonstrate competencies in various programming languages and technical skills in solving complex problems.</h3>
+							<br>
+							<p align="justify"><br></br>This website is dedicated to showcasing my portfolio, qualifications, and service. I made this website using HTML, CSS and Javascript.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+		<script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+		<script>
+			$(function(){
+			  $("#nav-bar-index").load("navbar.html");
+			});
+		</script>
+	</body>
+</html>	
