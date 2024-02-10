@@ -1,6 +1,7 @@
                 
 .view {
     background: url("_files/_images/pexels-photo-blackandwhitemtns.jpeg")no-repeat center center;
+    height: 400px;
 }
     
 .navbar {
@@ -30,17 +31,24 @@
 }
 
 .socialmedia-icons {
+    color: black !important;
     position: absolute;
     top: 25%;
     left: 98%;
     transform: translate(-50%, -50%);
 }
 
-.downarrow {
+.downarrow-header {
     position: absolute;
     top: 46%;
     left: 50%;
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.downarrow {
+    color: black;
+    left: 50%;
 }
 
 p, h2, h3{

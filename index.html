@@ -21,17 +21,17 @@
 				<div class="centered title">Erin Lapko</div>
 				<!--icons-->
 				<div class="socialmedia-icons">
-					<a style="color: #000000;" href="https://www.facebook.com/erin.lapko/">
+					<a  href="https://www.facebook.com/erin.lapko/">
   						<i class="fab fa-facebook fa-2x"></i>
 					</a><br></br>
-					<a class="icon" style="color: #000000;" href="https://www.linkedin.com/in/erinlapko/" role="button">
+					<a class="icon" href="https://www.linkedin.com/in/erinlapko/" role="button">
   						<i class="fab fa-linkedin fa-2x"></i>
 					</a><br></br>
-					<a class="icon" style="color: #000000;" href="https://github.tamu.edu/erinlapko" role="button">
+					<a class="icon" href="https://github.tamu.edu/erinlapko" role="button">
   						<i class="fab fa-github fa-2x"></i>
 					</a>
 				</div>
-				<div class="downarrow">
+				<div class="downarrow-header">
 					<a role="button" onclick="scrollToMain()" style="color: white;">
   						<i class="fas fa-angle-double-down fa-4x"></i>
 					</a>
@@ -43,24 +43,51 @@
 					</script>
 				</div>
 			</div>
-			<div class="view intro" style="height: 400px;"></div>
+			<div class="view intro">
+			</div>
 		</header>
 		<main class="text-center py-5">
 			<div class="container">
-				<div class="row" id="main-text">
-					<div class="col-md">
-							<br>
-							<p><img src="_files/_images/profilepic3.png" class="rounded-circle float-start profile" alt="Profile picture of Erin Lapko" width="40%"></p>
-							<br><h2>Howdy, I'm Erin Lapko!</h2><br>
-							<h3 align="centered">I'm an energetic and passionate college student working towards a B.S. in Computer Science.
-								I demonstrate competencies in various programming languages and technical skills in solving complex problems.</h3>
-							<br>
-							<p align="justify"><br></br>This website is dedicated to showcasing my portfolio, qualifications, and service. I made this website using HTML, CSS and Javascript.</p>
-						</div>
-					</div>
+			  
+			  <!-- Section 1: Main Text -->
+			  <section id="main-text">
+				<div class="row">
+				  <div class="col-md">
+					<br>
+					<p><img src="_files/_images/profilepic3.png" class="rounded-circle float-start profile" alt="Profile picture of Erin Lapko" width="40%"></p>
+					<br><h2>Howdy, I'm Erin Lapko!</h2><br>
+					<h3 align="centered">I'm an energetic and passionate college student working towards a B.S. in Computer Science.
+					  I demonstrate competencies in various programming languages and technical skills in solving complex problems.</h3>
+					<br>
+					<p align="justify"><br></br>This website is dedicated to showcasing my portfolio, qualifications, and service. I made this website using HTML, CSS and Javascript.</p>
+				  </div>
 				</div>
+			  </section>
+		  
+			<div class="downarrow">
+				<a role="button" onclick="scrollToMain()" >
+				  <i class="fas fa-angle-double-down fa-4x"></i>
+				</a>
+				<script>
+				  function scrollToMain(){
+					var ele = document.getElementById("main-text");
+					ele.scrollIntoView();
+				  }
+				</script>
+			  </div>
+
+			  <!-- Section 2: Accessibility Interests -->
+			  <section id="accessibility-interests">
+				<div class="row">
+				  <div class="col-md">
+					<h2>Accessiblity interests</h2>
+					<p>I'm interested in:</p>
+				  </div>
+				</div>
+			  </section>
 			</div>
-		</main>
+		  </main>
+		  
 		<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 		<script src="bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
 		<script>
