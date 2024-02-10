@@ -32,7 +32,7 @@
 					</a>
 				</div>
 				<div class="downarrow-header">
-					<a role="button" onclick="scrollToMain()" style="color: white;">
+					<a role="button" onclick="scrollToMain()" >
   						<i class="fas fa-angle-double-down fa-4x"></i>
 					</a>
 					<script>
@@ -49,43 +49,61 @@
 		<main class="text-center py-5">
 			<div class="container">
 			  
-			  <!-- Section 1: Main Text -->
-			  <section id="main-text">
-				<div class="row">
-				  <div class="col-md">
-					<br>
-					<p><img src="_files/_images/profilepic3.png" class="rounded-circle float-start profile" alt="Profile picture of Erin Lapko" width="40%"></p>
-					<br><h2>Howdy, I'm Erin Lapko!</h2><br>
-					<h3 align="centered">I'm an energetic and passionate college student working towards a B.S. in Computer Science.
-					  I demonstrate competencies in various programming languages and technical skills in solving complex problems.</h3>
-					<br>
-					<p align="justify"><br></br>This website is dedicated to showcasing my portfolio, qualifications, and service. I made this website using HTML, CSS and Javascript.</p>
-				  </div>
+			<!-- Section 1: Main Text -->
+			<section id="main-text">
+			<div class="row" id="main-text">
+				<div class="col-md">
+				<br>
+				<p><img src="_files/_images/profilepic3.png" class="rounded-circle float-start profile" alt="Profile picture of Erin Lapko" width="40%"></p>
+				<br><h2>Howdy, I'm Erin Lapko!</h2><br>
+				<h3 align="centered">I'm an energetic and passionate college student working towards a B.S. in Computer Science.
+					I demonstrate competencies in various programming languages and technical skills in solving complex problems.</h3>
+				<br>
+				<p align="justify"><br></br>This website is dedicated to showcasing my portfolio, qualifications, and service. I made this website using HTML, CSS and Javascript on <a href="https://github.com/programmererin/programmerin.github.io">this repo</a>.</p>
 				</div>
-			  </section>
+			</div>
+			</section>
 		  
 			<div class="downarrow">
-				<a role="button" onclick="scrollToMain()" >
+				<a role="button" onclick="scrollToAccInterests()" >
 				  <i class="fas fa-angle-double-down fa-4x"></i>
 				</a>
 				<script>
-				  function scrollToMain(){
-					var ele = document.getElementById("main-text");
+				  function scrollToAccInterests(){
+					var ele = document.getElementById("accessibility-interests");
 					ele.scrollIntoView();
 				  }
 				</script>
 			  </div>
-
 			  <!-- Section 2: Accessibility Interests -->
 			  <section id="accessibility-interests">
 				<div class="row">
 				  <div class="col-md">
 					<h2>Accessiblity interests</h2>
 					<p>I'm interested in:</p>
+					<ul>
+						<li>Tabbable websites</li>
+						<li>WCAG Compliance</li>
+						<li>Outfitting sites for screen readers</li>
+					  </ul>
 				  </div>
 				</div>
 			  </section>
-			</div>
+		
+
+			<section id="mailing-form">
+				<h2>Contact me:</h2>
+					<form action="mailto:erinlapko@tamu.edu" method="post" enctype="text/plain">
+					Name:<br>
+					<input type="text" name="name"><br>
+					E-mail:<br>
+					<input type="text" name="mail"><br>
+					Comment:<br>
+					<input type="text" name="comment" size="50"><br><br>
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+					</form>
+			</section>
 		  </main>
 		  
 		<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>

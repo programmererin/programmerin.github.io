@@ -91,3 +91,14 @@ body {
     color: white;
 }
 
+
+
+ul {
+    list-style-position: inside; /* Ensures bullets are inside the list items */
+  }
+  
+ ul li {
+    text-align: left; /* Align text back to the left */
+    display: inline-block; /* Prevents full width */
+  }
+  
